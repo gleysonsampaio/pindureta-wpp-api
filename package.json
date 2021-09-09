@@ -1,0 +1,37 @@
+{
+  "name": "pindureta-wpp-api",
+  "version": "1.0.0",
+  "description": "API de envio de mensagens das vendas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleysonsampaio/pindureta-wpp-api.git"
+  },
+  "keywords": [
+    "pindureta",
+    "mensagens",
+    "vendas"
+  ],
+  "author": "Nur Muhammad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gleysonsampaio/pindureta-wpp-api/issues"
+  },
+  "homepage": "https://github.com/gleysonsampaio/pindureta-wpp-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.20.0",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.9.2",
+    "http": "0.0.1-security",
+    "mime-types": "^2.1.32",
+    "nodejs": "0.0.0",
+    "puppeteer": "^10.2.0",
+    "qrcode": "^1.4.4",
+    "socket.io": "2.3.0",
+    "whatsapp-web.js": "latest"
+  }
+}
